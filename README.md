@@ -1,5 +1,5 @@
 # Invoice
-![invoice](/images/Screenshot from 2021-05-12 20-35-00.png?raw=true)
+![invoice](https://github.com/Allan-1/Invoice/blob/main/images/Screenshot%20from%202021-05-13%2020-52-56.png?raw=true)
 
 This is an invoicing app made with react, mongodb and nodejs
 
