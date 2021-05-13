@@ -1,0 +1,16 @@
+{
+  "name": "invoice",
+  "version": "1.0.0",
+  "description": "The invoice backend",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Allan Muturi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8"
+  }
+}

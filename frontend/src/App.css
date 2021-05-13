@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background: url('./images/pexels-rostislav-uzunov-5011647.jpg');
+  background-position: fixed;
+  background-size: cover;
+}
+/* App */
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+/* navbar */
+.navBar{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 0.5rem 3rem;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+}
+.nav .user{
+  font-size: 1.6rem;
+}
+
+/* form styling */
+.form{
+  margin: 0.5rem 1rem;
+  width: 45%;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  height: 20rem;
+}
+
+.form input{
+  display: block;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 70%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.form input::placeholder{
+  color: white;
+}
+.form button{
+  border: none;
+  margin: 0.5rem 1.6rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.5ms all ease;
+}
+.form button:hover{
+  background-color: #ebd6d6;
+}
+/* invoices */
+.invoices{
+  color: #fff;
+  margin: 0.5rem;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 1rem;
+  height: 25rem;
+  overflow-y: scroll;
+}
+
+/* invoice */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  color: #405b77;
+}
