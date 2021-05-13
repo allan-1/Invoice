@@ -22,17 +22,6 @@ function createInvoice (req, res){
         })
     }
     invoice.save()
-    // .then(()=>{
-    //     return res.status(201).json({
-    //         success: true,
-    //         message: 'Invoice created'
-    //     })
-    // }).catch(error => {
-    //     return res.status(400).json({            
-    //         error,
-    //         message: 'Invoice not created'
-    //     })
-    // })
     res.redirect('http://localhost:3000/')
 }
 
