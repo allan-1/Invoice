@@ -6,11 +6,11 @@ function Invoice({invoice}) {
             <table>
                 <thead>
                     <tr>
-                        <th>Invoice Number</th>
+                        <th>Expense Number</th>
                         <th>Name</th>
                         <th>Phone Number</th>
                         <th>Amount</th>
-                        <th>Invoice Date</th>
+                        <th>Expense Date</th>
                     </tr>
                 </thead>
                 <tbody>
