@@ -1,7 +1,7 @@
 # Expense
 ![invoice](https://github.com/Allan-1/Invoice/blob/main/images/Screenshot%20from%202021-05-13%2020-52-56.png?raw=true)
 
-This is an Expense app made with react, mongodb and nodejs
+This is an Invoice app made with react, mongodb and nodejs
 
 # Installation & Setup
 1. First Install node and mongodb in your system
